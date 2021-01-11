@@ -36,11 +36,14 @@ namespace DoorControl.Controllers
             {
                 service.DoorOpen(doorId,Service.actionTimeS);
             }
+            else
+            {
+                service.DisConnect();
+            }
             
             if(service.ret >= 0)
             {
-                service.DisConnect();
-                service.DoorOpen(doorId,Service.actionTimeS);
+
                 msg.code=200;
                 msg.msg="成功";
                 msg.data=service.retData;
@@ -51,6 +54,7 @@ namespace DoorControl.Controllers
                 msg.data=service.retData;
             }
             
+            service.DisConnect();
             return msg;
         }
     }
