@@ -22,7 +22,7 @@ namespace DoorControl.Controllers
         [HttpPost]
         public Msg DoorOpenPost(int doorId)
         {
-            Console.WriteLine("----------"+ DateTime.Now.ToString()+ "----------");
+            Console.WriteLine("----------" + DateTime.Now.ToString() + " : " + Request.HttpContext.Connection.RemoteIpAddress.ToString());
             return DoorOpen(doorId);
         }
 

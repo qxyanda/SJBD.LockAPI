@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "e:\\vs_ws\\SJBD.LockAPI\\DoorControl.csproj": {}
+    "E:\\vs_ws\\SJBD.LockAPI\\DoorControl.csproj": {}
   },
   "projects": {
-    "e:\\vs_ws\\SJBD.LockAPI\\DoorControl.csproj": {
+    "E:\\vs_ws\\SJBD.LockAPI\\DoorControl.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "e:\\vs_ws\\SJBD.LockAPI\\DoorControl.csproj",
+        "projectUniqueName": "E:\\vs_ws\\SJBD.LockAPI\\DoorControl.csproj",
         "projectName": "DoorControl",
-        "projectPath": "e:\\vs_ws\\SJBD.LockAPI\\DoorControl.csproj",
+        "projectPath": "E:\\vs_ws\\SJBD.LockAPI\\DoorControl.csproj",
         "packagesPath": "C:\\Users\\Constantine\\.nuget\\packages\\",
-        "outputPath": "e:\\vs_ws\\SJBD.LockAPI\\obj\\",
+        "outputPath": "E:\\vs_ws\\SJBD.LockAPI\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Constantine\\AppData\\Roaming\\NuGet\\NuGet.Config",
