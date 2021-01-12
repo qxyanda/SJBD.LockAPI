@@ -49,3 +49,4 @@ E:\vs_ws\SJBD.LockAPI\obj\Debug\netcoreapp3.1\scopedcss\bundle\DoorControl.style
 E:\vs_ws\SJBD.LockAPI\obj\Debug\netcoreapp3.1\DoorControl.RazorTargetAssemblyInfo.cache
 E:\vs_ws\SJBD.LockAPI\obj\Debug\netcoreapp3.1\DoorControl.csproj.CopyComplete
 E:\vs_ws\SJBD.LockAPI\obj\Debug\netcoreapp3.1\DoorControl.genruntimeconfig.cache
+E:\vs_ws\SJBD.LockAPI\obj\Debug\netcoreapp3.1\DoorControl.csprojAssemblyReference.cache

@@ -23,6 +23,7 @@ namespace AcitonTimeControl.Controllers
         [HttpGet]
         public Msg DoorActionTimeGet()
         {
+            Console.WriteLine("----------" + DateTime.Now.ToString() + "----------");
             Msg msg=new Msg();
             string retData="DoorActionTime Get Succeed : " + Service.actionTimeS + " s .";
             msg.code=200;
@@ -35,6 +36,7 @@ namespace AcitonTimeControl.Controllers
         [HttpPost]
         public Msg DoorActionTimeSet(int time)
         {
+            Console.WriteLine("----------" + DateTime.Now.ToString() + "----------");
             Msg msg=new Msg();
             string retData="";
             if(time<3||time>60)
