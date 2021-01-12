@@ -23,8 +23,8 @@ namespace AcitonTimeControl.Controllers
         [HttpGet]
         public Msg DoorActionTimeGet()
         {
-            Console.WriteLine("----------" + DateTime.Now.ToString() + "----------");
-            Msg msg=new Msg();
+            Console.WriteLine("----------" + DateTime.Now.ToString() + " : " + Request.HttpContext.Connection.RemoteIpAddress.ToString());
+            Msg msg =new Msg();
             string retData="DoorActionTime Get Succeed : " + Service.actionTimeS + " s .";
             msg.code=200;
             msg.msg="成功";
@@ -36,7 +36,7 @@ namespace AcitonTimeControl.Controllers
         [HttpPost]
         public Msg DoorActionTimeSet(int time)
         {
-            Console.WriteLine("----------" + DateTime.Now.ToString() + "----------");
+            Console.WriteLine("----------" + DateTime.Now.ToString() + " : "+ Request.HttpContext.Connection.RemoteIpAddress.ToString());
             Msg msg=new Msg();
             string retData="";
             if(time<3||time>60)
