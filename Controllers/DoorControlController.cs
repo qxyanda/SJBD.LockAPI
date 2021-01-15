@@ -36,10 +36,6 @@ namespace DoorControl.Controllers
             {
                 service.DoorOpen(doorId,Service.actionTimeS);
             }
-            else
-            {
-                service.DisConnect();
-            }
             
             if(service.ret >= 0)
             {

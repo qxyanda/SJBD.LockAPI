@@ -1,21 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "E:\\vs_ws\\SJBD.LockAPI\\DoorControl.csproj": {}
+    "E:\\github\\SJBD.LockAPI\\DoorControl.csproj": {}
   },
   "projects": {
-    "E:\\vs_ws\\SJBD.LockAPI\\DoorControl.csproj": {
+    "E:\\github\\SJBD.LockAPI\\DoorControl.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\vs_ws\\SJBD.LockAPI\\DoorControl.csproj",
+        "projectUniqueName": "E:\\github\\SJBD.LockAPI\\DoorControl.csproj",
         "projectName": "DoorControl",
-        "projectPath": "E:\\vs_ws\\SJBD.LockAPI\\DoorControl.csproj",
-        "packagesPath": "C:\\Users\\Constantine\\.nuget\\packages\\",
-        "outputPath": "E:\\vs_ws\\SJBD.LockAPI\\obj\\",
+        "projectPath": "E:\\github\\SJBD.LockAPI\\DoorControl.csproj",
+        "packagesPath": "C:\\Users\\HT-YD\\.nuget\\packages\\",
+        "outputPath": "E:\\github\\SJBD.LockAPI\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "J:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Constantine\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\HT-YD\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -67,7 +71,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     }
