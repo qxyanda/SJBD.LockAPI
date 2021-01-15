@@ -5,16 +5,16 @@ using System;
 using DoorControl.Entities;
 
 
-namespace AcitonTimeControl.Controllers
+namespace ActionTimeControl.Controllers
 {
     [ApiController]
     [Route("[controller]")]
-    public class AcitonTimeController : ControllerBase
+    public class ActionTimeController : ControllerBase
     {
     
-        private readonly ILogger<AcitonTimeController> _logger;
+        private readonly ILogger<ActionTimeController> _logger;
 
-        public AcitonTimeController(ILogger<AcitonTimeController> logger)
+        public ActionTimeController(ILogger<ActionTimeController> logger)
         {
             _logger = logger;
         }
