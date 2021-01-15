@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\github\\SJBD.LockAPI\\DoorControl.csproj": {}
+    "e:\\github\\SJBD.LockAPI\\DoorControl.csproj": {}
   },
   "projects": {
-    "E:\\github\\SJBD.LockAPI\\DoorControl.csproj": {
+    "e:\\github\\SJBD.LockAPI\\DoorControl.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\github\\SJBD.LockAPI\\DoorControl.csproj",
+        "projectUniqueName": "e:\\github\\SJBD.LockAPI\\DoorControl.csproj",
         "projectName": "DoorControl",
-        "projectPath": "E:\\github\\SJBD.LockAPI\\DoorControl.csproj",
+        "projectPath": "e:\\github\\SJBD.LockAPI\\DoorControl.csproj",
         "packagesPath": "C:\\Users\\HT-YD\\.nuget\\packages\\",
-        "outputPath": "E:\\github\\SJBD.LockAPI\\obj\\",
+        "outputPath": "e:\\github\\SJBD.LockAPI\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "J:\\Microsoft\\Xamarin\\NuGet\\"

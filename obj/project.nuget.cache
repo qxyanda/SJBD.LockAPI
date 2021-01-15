@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "2AyLrkppqFKawuWDJxkQowP3a21MjTpwNkjEcRwstBRtsK6XJYarcXSfwsTbPH8rG11lWPGRuTtylI9luEUnDw==",
+  "dgSpecHash": "zkPcKCrD411v/X1KKtm8NbjxgiOZQAlaieleGuXj78/YwE3tUHmAB37AMm0HGfFUyBIaGQg/iTK3YZ9zce8ukw==",
   "success": true,
-  "projectFilePath": "E:\\github\\SJBD.LockAPI\\DoorControl.csproj",
+  "projectFilePath": "e:\\github\\SJBD.LockAPI\\DoorControl.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\HT-YD\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
     "C:\\Users\\HT-YD\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
