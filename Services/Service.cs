@@ -17,9 +17,11 @@ namespace DoorControl.Services
         [DllImport("plcommpro.dll", EntryPoint = "PullLastError")]
         public static extern int PullLastError();
 
+        public string connString = "protocol=TCP,ipaddress=172.18.0.200,port=4370,timeout=2000,passwd=";
+
         public void Connect()
         {
-            string str = "protocol=TCP,ipaddress=172.18.0.200,port=4370,timeout=2000,passwd=";
+            string str = connString;
             if (IntPtr.Zero == h)
             {
                 h = Connect(str);

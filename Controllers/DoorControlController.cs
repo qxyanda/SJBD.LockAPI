@@ -20,17 +20,29 @@ namespace DoorControl.Controllers
         }
 
         [HttpPost]
-        public Msg DoorOpenPost(int doorId)
+        public Msg DoorOpenPost(int unit, int doorId)
         {
             Console.WriteLine("----------" + DateTime.Now.ToString() + " : " + Request.HttpContext.Connection.RemoteIpAddress.ToString());
-            return DoorOpen(doorId);
+            return DoorOpen(unit, doorId);
         }
 
-        private Msg DoorOpen(int doorId)
+        private Msg DoorOpen(int unit, int doorId)
         {
             Msg msg=new Msg();
             
             Service service=new Service();
+            switch(unit)
+            {
+                case 1 :
+                service.connString = "protocol=TCP,ipaddress=172.18.0.201,port=4370,timeout=2000,passwd=";
+                break;
+                case 2:
+                service.connString = "protocol=TCP,ipaddress=172.18.0.200,port=4370,timeout=2000,passwd=";
+                break;
+                default:
+                service.connString = "protocol=TCP,ipaddress=172.18.0.201,port=4370,timeout=2000,passwd=";
+                break;
+            }
             service.Connect();
             if(service.h != IntPtr.Zero)
             {
