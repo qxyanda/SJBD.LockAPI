@@ -1,25 +1,27 @@
 {
   "format": 1,
   "restore": {
-    "D:\\vs_ws\\SJBD.LockAPI\\DoorControl.csproj": {}
+    "e:\\vs_ws\\SJBD.LockAPI\\DoorControl.csproj": {}
   },
   "projects": {
-    "D:\\vs_ws\\SJBD.LockAPI\\DoorControl.csproj": {
+    "e:\\vs_ws\\SJBD.LockAPI\\DoorControl.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\vs_ws\\SJBD.LockAPI\\DoorControl.csproj",
+        "projectUniqueName": "e:\\vs_ws\\SJBD.LockAPI\\DoorControl.csproj",
         "projectName": "DoorControl",
-        "projectPath": "D:\\vs_ws\\SJBD.LockAPI\\DoorControl.csproj",
-        "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-        "outputPath": "D:\\vs_ws\\SJBD.LockAPI\\obj\\",
+        "projectPath": "e:\\vs_ws\\SJBD.LockAPI\\DoorControl.csproj",
+        "packagesPath": "C:\\Users\\Constantine\\.nuget\\packages\\",
+        "outputPath": "e:\\vs_ws\\SJBD.LockAPI\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\Constantine\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -57,16 +59,6 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[3.1.10, 3.1.10]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Host.win-x64",
-              "version": "[3.1.11, 3.1.11]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -75,7 +67,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }
