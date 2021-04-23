@@ -25,11 +25,13 @@ namespace DoorControl
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllers();
-            services.AddSwaggerGen (c => {
+            services.AddSwaggerGen(c =>
+            {
                 // 添加文档信息
-                c.SwaggerDoc ("v1",
-                    new Microsoft.OpenApi.Models.OpenApiInfo {              
-                        Title = "智慧电厂.电磁锁控制.NET",
+                c.SwaggerDoc("v1",
+                    new Microsoft.OpenApi.Models.OpenApiInfo
+                    {
+                        Title = "智慧电厂.NET",
                         Version = "v1",
                         Description = "Haitong Automatic Control 2020.12.23",
                         // TermsOfService = new Uri("https://example.com/terms"),
@@ -58,13 +60,14 @@ namespace DoorControl
 
             // app.UseHttpsRedirection ();
             // 启用Swagger中间件
-            app.UseSwagger ();
+            app.UseSwagger();
             // 配置SwaggerUI
-            app.UseSwaggerUI (c => {
-                c.SwaggerEndpoint ("/swagger/v1/swagger.json", "WebApiDemo");
+            app.UseSwaggerUI(c =>
+            {
+                c.SwaggerEndpoint("/swagger/v1/swagger.json", "WebApiDemo");
                 c.RoutePrefix = string.Empty;
             });
-            
+
             app.UseRouting();
 
             app.UseAuthorization();

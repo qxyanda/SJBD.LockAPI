@@ -1,16 +1,50 @@
 {
   "version": 2,
-  "dgSpecHash": "TxNM7y8nd5Uj9jFfvvz+DHafV1YJN8ihk6yeJ/uqRJusjzYPEYt32OorultUA0NeIzJ8UevftWY9cz1rg2g4Dw==",
+  "dgSpecHash": "YB2AC0p3J8ndka0bCxfcJr1ZcVIBEcgYh5kawyNQDjVhfEXGJHRUbMGHR+8HaFLsy0L1nkZcE9mfUnRuns9qnQ==",
   "success": true,
-  "projectFilePath": "e:\\vs_ws\\SJBD.LockAPI\\DoorControl.csproj",
+  "projectFilePath": "E:\\vs_ws\\SJBD.WordToPdfApi\\Word2Pdf.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Constantine\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
+    "C:\\Users\\Constantine\\.nuget\\packages\\microsoft.office.interop.word\\15.0.4797.1003\\microsoft.office.interop.word.15.0.4797.1003.nupkg.sha512",
     "C:\\Users\\Constantine\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
     "C:\\Users\\Constantine\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.10.9\\microsoft.visualstudio.azure.containers.tools.targets.1.10.9.nupkg.sha512",
+    "C:\\Users\\Constantine\\.nuget\\packages\\microsoftofficecore\\15.0.0\\microsoftofficecore.15.0.0.nupkg.sha512",
+    "C:\\Users\\Constantine\\.nuget\\packages\\office\\12.0.0\\office.12.0.0.nupkg.sha512",
     "C:\\Users\\Constantine\\.nuget\\packages\\swashbuckle.aspnetcore\\5.6.3\\swashbuckle.aspnetcore.5.6.3.nupkg.sha512",
     "C:\\Users\\Constantine\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\5.6.3\\swashbuckle.aspnetcore.swagger.5.6.3.nupkg.sha512",
     "C:\\Users\\Constantine\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\5.6.3\\swashbuckle.aspnetcore.swaggergen.5.6.3.nupkg.sha512",
     "C:\\Users\\Constantine\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\5.6.3\\swashbuckle.aspnetcore.swaggerui.5.6.3.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "已使用“.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8”而不是项目目标框架“.NETCoreApp,Version=v3.1”还原包“Microsoft.Office.Interop.Word 15.0.4797.1003”。此包可能与项目不完全兼容。",
+      "libraryId": "Microsoft.Office.Interop.Word",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "已使用“.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8”而不是项目目标框架“.NETCoreApp,Version=v3.1”还原包“MicrosoftOfficeCore 15.0.0”。此包可能与项目不完全兼容。",
+      "libraryId": "MicrosoftOfficeCore",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "已使用“.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8”而不是项目目标框架“.NETCoreApp,Version=v3.1”还原包“Office 12.0.0”。此包可能与项目不完全兼容。",
+      "libraryId": "Office",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    }
+  ]
 }

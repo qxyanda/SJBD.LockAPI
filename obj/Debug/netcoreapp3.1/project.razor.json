@@ -1,5 +1,5 @@
 {
-  "FilePath": "e:\\vs_ws\\SJBD.LockAPI\\DoorControl.csproj",
+  "FilePath": "e:\\vs_ws\\SJBD.WordToPdfApi\\Word2Pdf.csproj",
   "Configuration": {
     "ConfigurationName": "MVC-3.0",
     "LanguageVersion": "3.0",
@@ -14399,7 +14399,7 @@
     ],
     "CSharpLanguageVersion": 800
   },
-  "RootNamespace": "DoorControl",
+  "RootNamespace": "Word2Pdf",
   "Documents": [],
   "SerializationFormat": "0.2"
 }
