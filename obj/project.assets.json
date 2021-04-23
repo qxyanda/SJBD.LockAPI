@@ -13,6 +13,15 @@
           "buildMultiTargeting/Microsoft.Extensions.ApiDescription.Server.targets": {}
         }
       },
+      "Microsoft.Office.Interop.Word/15.0.4797.1003": {
+        "type": "package",
+        "compile": {
+          "lib/net20/Microsoft.Office.Interop.Word.dll": {}
+        },
+        "runtime": {
+          "lib/net20/Microsoft.Office.Interop.Word.dll": {}
+        }
+      },
       "Microsoft.OpenApi/1.2.3": {
         "type": "package",
         "compile": {
@@ -27,6 +36,24 @@
         "build": {
           "build/Microsoft.VisualStudio.Azure.Containers.Tools.Targets.props": {},
           "build/Microsoft.VisualStudio.Azure.Containers.Tools.Targets.targets": {}
+        }
+      },
+      "MicrosoftOfficeCore/15.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net35/Office.dll": {}
+        },
+        "runtime": {
+          "lib/net35/Office.dll": {}
+        }
+      },
+      "Office/12.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net40/Office.dll": {}
+        },
+        "runtime": {
+          "lib/net40/Office.dll": {}
         }
       },
       "Swashbuckle.AspNetCore/5.6.3": {
@@ -113,6 +140,18 @@
         "tools/netcoreapp2.1/GetDocument.Insider.runtimeconfig.json"
       ]
     },
+    "Microsoft.Office.Interop.Word/15.0.4797.1003": {
+      "sha512": "p22pljmHaQjDxNLqO+uO5vi3y0TK5t1mAtSAg93K28/e12Hw3qzfflAo6XHvNXxnvz9HZGv59vLCwIaC9xbXNQ==",
+      "type": "package",
+      "path": "microsoft.office.interop.word/15.0.4797.1003",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net20/Microsoft.Office.Interop.Word.dll",
+        "microsoft.office.interop.word.15.0.4797.1003.nupkg.sha512",
+        "microsoft.office.interop.word.nuspec"
+      ]
+    },
     "Microsoft.OpenApi/1.2.3": {
       "sha512": "Nug3rO+7Kl5/SBAadzSMAVgqDlfGjJZ0GenQrLywJ84XGKO0uRqkunz5Wyl0SDwcR71bAATXvSdbdzPrYRYKGw==",
       "type": "package",
@@ -194,6 +233,31 @@
         "tools/zh-Hant/Microsoft.VisualStudio.Containers.Tools.Tasks.resources.dll"
       ]
     },
+    "MicrosoftOfficeCore/15.0.0": {
+      "sha512": "/KgYw8uvv0Ut8FPvyEa1XJ/TrLSRgvTv3JgC2IT0/8NwoICzbEJWfmfwsE6Dwi8WH0jVkTEO7zRvGvaKqUOhqQ==",
+      "type": "package",
+      "path": "microsoftofficecore/15.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net35/Office.dll",
+        "microsoftofficecore.15.0.0.nupkg.sha512",
+        "microsoftofficecore.nuspec"
+      ]
+    },
+    "Office/12.0.0": {
+      "sha512": "PNnAY+I5vxcFhUFCXtYZ24va81pPAHUhjtXbeJN04KqDz+IzlmobWOHRatnqv1m0TvR1MWD5tQQB1UteZln6wQ==",
+      "type": "package",
+      "path": "office/12.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net40/Office.dll",
+        "lib/net40/Office.xml",
+        "office.12.0.0.nupkg.sha512",
+        "office.nuspec"
+      ]
+    },
     "Swashbuckle.AspNetCore/5.6.3": {
       "sha512": "UkL9GU0mfaA+7RwYjEaBFvAzL8qNQhNqAeV5uaWUu/Z+fVgvK9FHkGCpTXBqSQeIHuZaIElzxnLDdIqGzuCnVg==",
       "type": "package",
@@ -260,24 +324,32 @@
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
+      "Microsoft.Office.Interop.Word >= 15.0.4797.1003",
       "Microsoft.VisualStudio.Azure.Containers.Tools.Targets >= 1.10.9",
+      "MicrosoftOfficeCore >= 15.0.0",
+      "Office >= 12.0.0",
       "Swashbuckle.AspNetCore >= 5.6.3"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Constantine\\.nuget\\packages\\": {}
+    "C:\\Users\\Constantine\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\vs_ws\\SJBD.LockAPI\\DoorControl.csproj",
-      "projectName": "DoorControl",
-      "projectPath": "E:\\vs_ws\\SJBD.LockAPI\\DoorControl.csproj",
+      "projectUniqueName": "E:\\vs_ws\\SJBD.WordToPdfApi\\Word2Pdf.csproj",
+      "projectName": "Word2Pdf",
+      "projectPath": "E:\\vs_ws\\SJBD.WordToPdfApi\\Word2Pdf.csproj",
       "packagesPath": "C:\\Users\\Constantine\\.nuget\\packages\\",
-      "outputPath": "E:\\vs_ws\\SJBD.LockAPI\\obj\\",
+      "outputPath": "E:\\vs_ws\\SJBD.WordToPdfApi\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
         "C:\\Users\\Constantine\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -303,9 +375,21 @@
       "netcoreapp3.1": {
         "targetAlias": "netcoreapp3.1",
         "dependencies": {
+          "Microsoft.Office.Interop.Word": {
+            "target": "Package",
+            "version": "[15.0.4797.1003, )"
+          },
           "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
             "target": "Package",
             "version": "[1.10.9, )"
+          },
+          "MicrosoftOfficeCore": {
+            "target": "Package",
+            "version": "[15.0.0, )"
+          },
+          "Office": {
+            "target": "Package",
+            "version": "[12.0.0, )"
           },
           "Swashbuckle.AspNetCore": {
             "target": "Package",
@@ -330,8 +414,40 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "已使用“.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8”而不是项目目标框架“.NETCoreApp,Version=v3.1”还原包“Microsoft.Office.Interop.Word 15.0.4797.1003”。此包可能与项目不完全兼容。",
+      "libraryId": "Microsoft.Office.Interop.Word",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "已使用“.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8”而不是项目目标框架“.NETCoreApp,Version=v3.1”还原包“MicrosoftOfficeCore 15.0.0”。此包可能与项目不完全兼容。",
+      "libraryId": "MicrosoftOfficeCore",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "已使用“.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8”而不是项目目标框架“.NETCoreApp,Version=v3.1”还原包“Office 12.0.0”。此包可能与项目不完全兼容。",
+      "libraryId": "Office",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    }
+  ]
 }
